@@ -4,4 +4,14 @@ layout:
 multigroup: true
 projectName: k8s-controller-example
 repo: github.com/shadowlan/k8s-controller-example
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: demo.io
+  group: batch
+  kind: ServiceExport
+  path: github.com/shadowlan/k8s-controller-example/apis/batch/v1alpha1
+  version: v1alpha1
 version: "3"
