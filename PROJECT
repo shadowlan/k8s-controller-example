@@ -1,0 +1,6 @@
+domain: demo.io
+layout:
+- go.kubebuilder.io/v3
+projectName: k8s-controller-example
+repo: github.com/shadowlan/k8s-controller-example
+version: "3"
